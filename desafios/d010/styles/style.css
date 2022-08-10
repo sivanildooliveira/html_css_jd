@@ -58,8 +58,9 @@ header p {
     color: white;
     margin: auto;
     margin-top: 30px;
-    font-size: .8em;
+    font-size: .6em;
     max-width: 500px;
+    font-width: normal;
     
     
 }
