@@ -91,7 +91,7 @@ article ol {
 article a {
   font-size: 2vw;
   text-decoration: none;
-  font-weight: lighter;
+  font-weight: bold;
   font-family: var(--fontnor);
   color: #3C3744;
 }
