@@ -60,6 +60,10 @@ section {
     font-family: var(--fonttex);
 }
 
+section p {
+    padding-bottom: 2em;
+}
+
 section.normal {
     background-color: white;
     color: black;
@@ -72,8 +76,26 @@ section.imagem {
     font-size: 3.5vw;
 }
 
+section#s1 {
+    background-image: url("imagens/background001.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+section#s2 {
+    background-image: url("imagens/background002.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
 section.imagem p{
-    background-color: rgba(0, 0, 0, 0.116);
+    background-color: rgba(0, 0, 0, 0.39);
     width: fit-content;
     padding: 15px;
 }
