@@ -1,9 +1,25 @@
 @charset "utf-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,300;0,400;1,300&display=swap');
 
 
 
 
+
+
+:root {
+  --cor0: #3C3744;
+  --cor1: #090C9B;
+  --cor2: #3066BE;
+  --cor3: #B4C5E4;
+  --cor4: #FBFFF1;
+
+  --fonttit: 'Anton', sans-serif;
+  --fontnor: 'Noto Sans', sans-serif;
+
+}
 
 *{
   margin: 0px;
@@ -12,5 +28,70 @@
 
 
 body {
-  background-image: url()
+  background-color: white;
+  font-size: 1em;
+}
+
+header {
+  background-image: linear-gradient(to bottom, var(--cor0), black);
+  min-height: 15vh;
+  padding-top: 3vh;
+  padding-bottom: 3vh;
+  text-align: center;
+  color: var(--cor4);
+}
+
+header h1 {
+  font-family: var(--fonttit);
+  font-size: 6vw;
+  padding: 10px;
+  padding-top: 0px;
+  font-variant: small-caps;
+}
+
+header p {
+  font-size: 1.8vw;
+  font-family: var(--fontnor);
+  font-weight: 300;
+  line-height: 1em;
+  width: 40vw;
+  margin: auto;
+}
+
+main {
+  background-color: var(--cor3);
+  height: 90vh;
+  width: 80vw;
+  margin: auto;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.301);
+  padding: 15px;
+}
+
+article {
+  background-color: var(--cor4);
+  border-radius: 15px;
+  padding: 10px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.301);
+}
+
+article h1 {
+  font-family: var(--fontnor);
+  font-size: 1.3em;
+  color: var(--cor1);
+}
+
+article ol {
+  padding: 20px;
+  list-style-position: inside;
+  columns: 2;
+  list-style-type: '\1F449\00a0';
+  line-height: 5vh;
+}
+
+article a {
+  font-size: 2vw;
+  text-decoration: none;
+  font-weight: lighter;
+  font-family: var(--fontnor);
+  color: #3C3744;
 }
