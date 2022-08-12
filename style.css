@@ -10,10 +10,10 @@
 
 
 :root {
-  --cor0: #3C3744;
-  --cor1: #090C9B;
-  --cor2: #3066BE;
-  --cor3: #B4C5E4;
+  --cor0: black;
+  --cor1: #424242;
+  --cor2: #585858;
+  --cor3: #222222;
   --cor4: #FBFFF1;
 
   --fonttit: 'Anton', sans-serif;
@@ -28,12 +28,13 @@
 
 
 body {
-  background-color: white;
+  background-color: var(--cor0);
   font-size: 1em;
 }
 
 header {
-  background-image: linear-gradient(to bottom, var(--cor0), black);
+  background-color: var(--cor0);
+  background-image: url("https://images.pexels.com/photos/748626/pexels-photo-748626.jpeg?auto=compress&cs=tinysrgb&w=600");
   min-height: 15vh;
   padding-top: 3vh;
   padding-bottom: 3vh;
@@ -77,19 +78,20 @@ article {
 article h1 {
   font-family: var(--fontnor);
   text-decoration: underline;
-  font-size: 1.3em;
+  font-size: 4vw;
   color: var(--cor1);
 }
 
 article h2 {
   font-family: var(--fontnor);
   font-weight: lighter;
-  font-size: 1em;
+  font-size: 2.5vw;
   color: var(--cor1);
 }
 
 article ol {
   padding: 20px;
+  padding-top: 30px;
   list-style-position: inside;
   columns: 2;
   list-style-type: '\1F449\00a0';
