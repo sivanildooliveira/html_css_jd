@@ -67,19 +67,21 @@ section p {
 section.normal {
     background-color: white;
     color: black;
-    font-size: 3.5vw;
+    font-size: 3vw;
 }
 
 section.imagem {
     background-color: rgb(46, 46, 46);
     color: white;
-    font-size: 3.5vw;
+    font-size: 3vw;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.712);
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.356) ;
 }
 
 section#s1 {
     background-image: url("imagens/background001.jpg");
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: right center;
     background-size: cover;
     background-attachment: fixed;
 
@@ -88,7 +90,7 @@ section#s1 {
 section#s2 {
     background-image: url("imagens/background002.jpg");
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: right center;
     background-size: cover;
     background-attachment: fixed;
 
