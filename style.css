@@ -76,7 +76,15 @@ article {
 
 article h1 {
   font-family: var(--fontnor);
+  text-decoration: underline;
   font-size: 1.3em;
+  color: var(--cor1);
+}
+
+article h2 {
+  font-family: var(--fontnor);
+  font-weight: lighter;
+  font-size: 1em;
   color: var(--cor1);
 }
 
