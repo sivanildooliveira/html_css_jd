@@ -18,7 +18,6 @@
 
 
 html, body {
-    margin: -10px;
     min-height: 100vh;
     background-color: darkgray;
     font-family: var(--fontnor);
@@ -77,14 +76,15 @@ section.imagem {
     font-size: 3.4vw;
     text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.712);
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.356) ;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 section#s1 {
     background-image: url("imagens/background001.jpg");
     background-repeat: no-repeat;
     background-position: right center;
-    background-size: cover;
-    background-attachment: fixed;
+    
 
 }
 
@@ -92,8 +92,7 @@ section#s2 {
     background-image: url("imagens/background002.jpg");
     background-repeat: no-repeat;
     background-position: right center;
-    background-size: cover;
-    background-attachment: fixed;
+    
 
 }
 
