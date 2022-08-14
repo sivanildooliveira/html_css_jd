@@ -1,0 +1,37 @@
+
+
+@charset "utf-8";
+
+
+
+body {
+    background-color: rgb(39, 39, 39);
+}
+
+form {
+    max-width:8000px;
+    width: 80%;
+    margin-right: 10%;
+    margin-left: 10%;
+    color: white;
+    text-align: center;
+}
+
+div#video {
+    position: relative;
+    padding-top: 56%;
+    background-color: rgb(75, 75, 75);
+}
+
+#video iframe {
+    position: absolute;
+    top: 1%;
+    left: 1%;
+    width: 98%;
+    height: 98%;
+
+}
+
+a {
+    color: white;
+}
