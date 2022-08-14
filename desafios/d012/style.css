@@ -67,16 +67,16 @@ section p {
 section.normal {
     background-color: white;
     color: black;
-    font-size: 3.8vw;
+    font-size: 3.5vw;
 }
 
 section.imagem {
     background-color: rgb(46, 46, 46);
     color: white;
-    font-size: 3.8vw;
+    font-size: 3.5vw;
     text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.712);
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.356) ;
-    background-size: cover;
+    background-size: contain;
     background-attachment: fixed;
 }
 
