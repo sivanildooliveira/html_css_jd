@@ -11,10 +11,24 @@
         }
 
         table {
+            position: relative;
+            overflow-x: auto;
             border-collapse: collapse;
             text-align: center;
-            width: 900px;
-            height: 1800px;
+            width: 800px;
+            
+        }
+
+        thead {
+            position: sticky;
+            top: 0px;
+        }
+
+        td.nome {
+            position: sticky;
+            left: 0px;
+            background-color: lightgray;
+            text-align: left;
         }
 
         td, th {
@@ -30,11 +44,11 @@
             font-weight: bold;
         }
 
-        .cidade {
-            color: white;
-            background-color: red;
-            font-size: .5em;
+        tbody tr:nth-child(2n) {
+            background-color: lightgrey;
         }
+
+        
 
         
     </style>
@@ -58,49 +72,193 @@
         </thead>
         <tbody>
             <tr>
-                <td>Maria</td>
+                <td class="nome">Maria</td>
                 <td>F</td>
                 <td>53</td>
                 <td>Secretária</td>
             </tr>
             <tr>
-                <td>Otavio</td>
+                <td class="nome">Otavio</td>
                 <td>M</td>
                 <td>34</td>
                 <td>Mecanico</td>
             </tr>
             <tr>
-                <td>Mario</td>
+                <td class="nome">Mario</td>
                 <td>M</td>
                 <td>46</td>
                 <td>Motorista</td>
             </tr>
             <tr>
-                <td>Fernanda</td>
+                <td class="nome">Fernanda</td>
                 <td>F</td>
                 <td>23</td>
                 <td>Dentista</td>
             </tr>
             <tr>
-                <td>Rivaldo</td>
+                <td class="nome">Rivaldo</td>
                 <td>M</td>
                 <td>45</td>
                 <td>Fotografo</td>
             </tr>
             <tr>
-                <td>Helena</td>
+                <td class="nome">Helena</td>
                 <td>F</td>
                 <td>18</td>
                 <td>Estudante</td>
             </tr>
             <tr>
-                <td>José</td>
+                <td class="nome">José</td>
                 <td>M</td>
                 <td>60</td>
                 <td>Bancario</td>
             </tr>
             <tr>
-                <td>Fernando</td>
+                <td class="nome">Fernando</td>
+                <td>M</td>
+                <td>30</td>
+                <td>Vendedor</td>
+            </tr>
+            <tr>
+                <td class="nome">Maria</td>
+                <td>F</td>
+                <td>53</td>
+                <td>Secretária</td>
+            </tr>
+            <tr>
+                <td class="nome">Otavio</td>
+                <td>M</td>
+                <td>34</td>
+                <td>Mecanico</td>
+            </tr>
+            <tr>
+                <td class="nome">Mario</td>
+                <td>M</td>
+                <td>46</td>
+                <td>Motorista</td>
+            </tr>
+            <tr>
+                <td class="nome">Fernanda</td>
+                <td>F</td>
+                <td>23</td>
+                <td>Dentista</td>
+            </tr>
+            <tr>
+                <td class="nome">Rivaldo</td>
+                <td>M</td>
+                <td>45</td>
+                <td>Fotografo</td>
+            </tr>
+            <tr>
+                <td class="nome">Helena</td>
+                <td>F</td>
+                <td>18</td>
+                <td>Estudante</td>
+            </tr>
+            <tr>
+                <td class="nome">José</td>
+                <td>M</td>
+                <td>60</td>
+                <td>Bancario</td>
+            </tr>
+            <tr>
+                <td class="nome">Fernando</td>
+                <td>M</td>
+                <td>30</td>
+                <td>Vendedor</td>
+            </tr>
+            <tr>
+                <td class="nome">Maria</td>
+                <td>F</td>
+                <td>53</td>
+                <td>Secretária</td>
+            </tr>
+            <tr>
+                <td class="nome">Otavio</td>
+                <td>M</td>
+                <td>34</td>
+                <td>Mecanico</td>
+            </tr>
+            <tr>
+                <td class="nome">Mario</td>
+                <td>M</td>
+                <td>46</td>
+                <td>Motorista</td>
+            </tr>
+            <tr>
+                <td class="nome">Fernanda</td>
+                <td>F</td>
+                <td>23</td>
+                <td>Dentista</td>
+            </tr>
+            <tr>
+                <td class="nome">Rivaldo</td>
+                <td>M</td>
+                <td>45</td>
+                <td>Fotografo</td>
+            </tr>
+            <tr>
+                <td class="nome">Helena</td>
+                <td>F</td>
+                <td>18</td>
+                <td>Estudante</td>
+            </tr>
+            <tr>
+                <td class="nome">José</td>
+                <td>M</td>
+                <td>60</td>
+                <td>Bancario</td>
+            </tr>
+            <tr>
+                <td class="nome">Fernando</td>
+                <td>M</td>
+                <td>30</td>
+                <td>Vendedor</td>
+            </tr>
+            <tr>
+                <td class="nome">Maria</td>
+                <td>F</td>
+                <td>53</td>
+                <td>Secretária</td>
+            </tr>
+            <tr>
+                <td class="nome">Otavio</td>
+                <td>M</td>
+                <td>34</td>
+                <td>Mecanico</td>
+            </tr>
+            <tr>
+                <td class="nome">Mario</td>
+                <td>M</td>
+                <td>46</td>
+                <td>Motorista</td>
+            </tr>
+            <tr>
+                <td class="nome">Fernanda</td>
+                <td>F</td>
+                <td>23</td>
+                <td>Dentista</td>
+            </tr>
+            <tr>
+                <td class="nome">Rivaldo</td>
+                <td>M</td>
+                <td>45</td>
+                <td>Fotografo</td>
+            </tr>
+            <tr>
+                <td class="nome">Helena</td>
+                <td>F</td>
+                <td>18</td>
+                <td>Estudante</td>
+            </tr>
+            <tr>
+                <td class="nome">José</td>
+                <td>M</td>
+                <td>60</td>
+                <td>Bancario</td>
+            </tr>
+            <tr>
+                <td class="nome">Fernando</td>
                 <td>M</td>
                 <td>30</td>
                 <td>Vendedor</td>
