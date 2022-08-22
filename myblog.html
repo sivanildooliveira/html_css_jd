@@ -129,6 +129,24 @@
 
         }
 
+        section article {
+            display: inline-block;
+            background-color: var(--cor02);
+            box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.226);
+            border-radius: 5px;
+            padding: 5px;
+            width: 300px;
+            height: 300px;
+            margin: 10px;
+
+        }
+
+        .titart {
+            font-size: 15px;
+            font-weight: bold;
+            opacity: .7;
+        }
+
     </style>
     <title>Blog do Silva</title>
 </head>
@@ -155,9 +173,24 @@
         </div>
     </div>
     <main>
-        <h1>
-            Meu titulo
-        </h1>
+        <section>
+            <article>
+                <h1 class="titart">
+                    Exercícios:
+                </h1>
+            </article>
+            <article>
+                <h1 class="titart">
+                    Desafios:
+                </h1>
+            </article>
+            <article>
+                <h1 class="titart">
+                    Testes:
+                </h1>
+            </article>
+        </section>
+
     </main>
     
 </body>
