@@ -28,8 +28,9 @@
         }
 
         body {
-            background-color: #F7F0F0;
+            background-color: var(--cor04);
             color: var(--cor01);
+
         }
 
         header {
@@ -64,6 +65,7 @@
             color: var(--cor02);
             text-decoration: none;
             margin-right: 15px;
+            transition: 1s;
         }
 
         #menu a:hover {
@@ -72,9 +74,59 @@
         }
 
         main {
-            width: 70vw;
             margin: auto;
+            background-color: #dbdbdb;
+            padding: 30px;
+        }
+
+        #submenu {
+            vertical-align: middle;
+            align-items: center;
+            padding: 30px 10vw;
+            margin-bottom: 7px;
+            background-color: var(--cor02);
+            box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.151);
+            
+            
+        }
+
+        #submenu p {
+            margin: auto;
+            display: inline-block;
+            font-size: 15px;
+            width: 40vw;
+            min-width: 400px;
+            text-align: center;
+            padding: 2vw;
+            vertical-align: middle;
+        }
+
+        #inp {
+            display: inline-block;
+            vertical-align: middle;
+        }
+
+        #ibusca {
+            margin: auto;
+            width: 250px;
+            border-radius: 5px;
+            border-width: 1px;
+            padding: 10px;
+            outline: none;
+
+        }
+
+        #bbusca {
+            margin: auto;
+            border-radius: 15px;
+            border-width: 2px;
+            border-color: #d1d1d1;
+            padding: 12px 20px;
+            outline: none;
             background-color: var(--cor05);
+            color: white;
+            font-weight: 600;
+
         }
 
     </style>
@@ -94,6 +146,14 @@
             </ul>
         </div>
     </header>
+    <div id="submenu">
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum voluptates perferendis ipsum veniam sequi </p>
+
+        <div id="inp">
+            <input type="text" name="busca" id="ibusca">
+            <input type="button" value="buscar" id="bbusca">
+        </div>
+    </div>
     <main>
         <h1>
             Meu titulo
