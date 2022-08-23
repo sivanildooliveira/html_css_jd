@@ -1,3 +1,6 @@
+
+        
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -30,14 +33,15 @@
         body {
             background-color: var(--cor04);
             color: var(--cor01);
+            
 
         }
 
         header {
             background-color: var(--cor01);
-            padding: 15px;
+            padding: 25px;
             min-height: 50px;
-            height: 7vh;
+            
             vertical-align: middle;
             color: var(--cor02);
             
@@ -46,7 +50,7 @@
         header div {
             width: 70vw;
             margin: auto;
-            max-width: 800px;
+            max-width: 900px;
         }
 
         .nomelogo {
@@ -61,11 +65,11 @@
         }
 
         #menu li,a {
-            display: inline-block;
+            display: inline;
             color: var(--cor02);
             text-decoration: none;
             margin-right: 15px;
-            transition: 1s;
+            transition: 1;
         }
 
         #menu a:hover {
@@ -73,50 +77,54 @@
             text-shadow: 0px 0px 7px var(--cor05);
         }
 
-        main {
-            margin: auto;
-            background-color: #dbdbdb;
-            padding: 30px;
-        }
 
         #submenu {
-            vertical-align: middle;
             align-items: center;
-            padding: 30px 10vw;
+            padding: 20px auto;
             margin-bottom: 7px;
             background-color: var(--cor02);
             box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.151);
+            margin: auto;
+            
             
             
         }
 
         #submenu p {
             margin: auto;
+            padding: 5%;
             display: inline-block;
             font-size: 15px;
-            width: 40vw;
+            width: 40%;
             min-width: 350px;
             text-align: center;
-            padding: 2vw;
             vertical-align: middle;
         }
 
         #inp {
+            margin: auto;
+            padding: 5%;
             display: inline-block;
+            font-size: 15px;
+            min-width: 350px;
+            text-align: center;
             vertical-align: middle;
         }
 
         #ibusca {
+            display: inline;
             margin: auto;
-            width: 250px;
+            width: 220px;
             border-radius: 5px;
             border-width: 1px;
             padding: 10px;
             outline: none;
+            font-weight: 600;
 
         }
 
         #bbusca {
+            display: inline;
             margin: auto;
             border-radius: 15px;
             border-width: 2px;
@@ -128,16 +136,34 @@
             font-weight: 600;
 
         }
+        
+        
+        main {
+          margin: auto;
+          max-width: 900px;
+          background-color: #dbdbdb;
+          padding: 15px;
+        }
+        
+        section {
+          
+          margin: auto;
+          
+          padding: 3px;
+          
+        }
 
         section article {
+            position: relative;
             display: inline-block;
             background-color: var(--cor02);
             box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.226);
             border-radius: 5px;
             padding: 5px;
-            width: 300px;
-            height: 300px;
-            margin: 10px;
+            width: 100%;
+            max-width: 280px;
+            vertical-align: top;
+            margin: 2px;
 
         }
 
@@ -146,6 +172,23 @@
             font-weight: bold;
             opacity: .7;
         }
+        
+        .listas li {
+          color: var(--cor01);
+          background-color: var(--cor04);
+          margin: 5px;
+          padding: 2px;
+          text-align: center;
+          font-weight: bold;
+          
+        }
+        
+        .listas li > a {
+          font-size: .8em;
+          font-weight: normal;
+          padding: 3px;
+          text-decoration: underline;
+        }
 
     </style>
     <title>Blog do Silva</title>
@@ -153,7 +196,7 @@
 <body>
     <header>
         <div>
-            <h1 class="nomelogo">My Blog</h1>
+            <h1 class="nomelogo">Minha Pagina</h1>
             <ul id="menu">
                 <li>
                     <a href="#">HTML CSS</a>
@@ -165,7 +208,7 @@
         </div>
     </header>
     <div id="submenu">
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum voluptates perferendis ipsum veniam sequi </p>
+        <p><span>Olá</span>! essa Pagina Contém meus projetos desenvolvidos durante o Curso de <a style="color: #ff0000; text-decoration: underline; font-weight: 600;" href="https://www.cursoemvideo.com.br" target="_blank">HTML5 E CSS3 Curso em Video</a></p>
 
         <div id="inp">
             <input type="text" name="busca" id="ibusca">
@@ -178,6 +221,32 @@
                 <h1 class="titart">
                     Exercícios:
                 </h1>
+                
+                <ul class="listas">
+                  <li>Exercício 01 <a href="https://sivanildooliveira.github.io/html_css_jd/exercicios/ex001/">VISUALIZAR</a><a href="https://github.com/sivanildooliveira/html_css_jd/tree/main/exercicios/ex001">CODIGO</a></li>
+                  <li>Exercício 02 <a href="Nome">Nome</a></li>
+                  <li>Exercício 03 <a href="Nome">Nome</a></li>
+                  <li>Exercício 04 <a href="Nome">Nome</a></li>
+                  <li>Exercício 05 <a href="Nome">Nome</a></li>
+                  <li>Exercício 06 <a href="Nome">Nome</a></li>
+                  <li>Exercício 07 <a href="Nome">Nome</a></li>
+                  <li>Exercício 08 <a href="Nome">Nome</a></li>
+                  <li>Exercício 09 <a href="Nome">Nome</a></li>
+                  <li>Exercício 10 <a href="Nome">Nome</a></li>
+                  <li>Exercício 11 <a href="Nome">Nome</a></li>
+                  <li>Exercício 12 <a href="Nome">Nome</a></li>
+                  <li>Exercício 13 <a href="Nome">Nome</a></li>
+                  <li>Exercício 14 <a href="Nome">Nome</a></li>
+                  <li>Exercício 15 <a href="Nome">Nome</a></li>
+                  <li>Exercício 16 <a href="Nome">Nome</a></li>
+                  <li>Exercício 17 <a href="Nome">Nome</a></li>
+                  <li>Exercício 18 <a href="Nome">Nome</a></li>
+                  <li>Exercício 19 <a href="Nome">Nome</a></li>
+                  <li>Exercício 20 <a href="Nome">Nome</a></li>
+                  <li>Exercício 21 <a href="Nome">Nome</a></li>
+                  <li>Exercício 22 <a href="Nome">Nome</a></li>
+                  <li>Exercício 23 <a href="Nome">Nome</a></li>
+                </ul>
             </article>
             <article>
                 <h1 class="titart">
@@ -195,3 +264,29 @@
     
 </body>
 </html>
+
+        
+
+
+        
+
+        
+
+
+
+
+        
+
+
+        
+        
+       
+
+
+
+
+
+
+
+    
+
