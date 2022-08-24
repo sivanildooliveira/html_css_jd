@@ -76,7 +76,7 @@ section.imagem {
     font-size: 3.5vw;
     text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.712);
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.356) ;
-    background-size: contain;
+    background-size: cover;
     background-attachment: fixed;
 }
 
