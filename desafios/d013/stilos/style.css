@@ -39,8 +39,8 @@ section#phone {
     left: 50%;
     transform: translate(-50%, -50%);
 
-    width: 311px;
-    height: 627px;
+    width: 291px;
+    height: 607px;
     background:  url("../imagens/frame-iphone.png") no-repeat top center;
     background-size: cover;
     
@@ -49,10 +49,10 @@ section#phone {
 
 iframe {
     position: absolute;
-    top: 81.5px;
-    left: 23px;
-    width: 265px;
-    height: 468px;
+    top: 78.5px;
+    left: 17.5px;
+    width: 257px;
+    height: 454px;
 }
 
 section#redes {
