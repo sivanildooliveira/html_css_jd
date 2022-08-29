@@ -36,15 +36,20 @@ header h1 {
 
 main {
     display: block;
-    
+    transition: 1s;
+}
+
+#itens {
+    display: none;
 }
 
 menu ul {
     list-style-type: none;
 }
 
+
 menu > ul > li > a {
-    display: none;
+    display: block;
     padding: 10px;
     text-decoration: none;
     text-align: center;
