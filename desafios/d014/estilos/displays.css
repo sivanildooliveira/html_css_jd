@@ -1,0 +1,97 @@
+@charset "UTF-8";
+
+
+:root {
+
+
+    --cor1: #49a09d;
+    --cor2: #5f2c82;
+
+}
+
+
+
+@media screen and (min-width: 600px) {
+    body {
+        background: linear-gradient(to bottom, var(--cor2), var(--cor1));
+    }
+
+    section#login {
+        position: relative;
+        display: flex;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 80%;
+        height: 40%;
+        background-color: white;
+        border-radius: 20px;
+        overflow: hidden;
+        box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.484);
+    
+    }
+
+    section#login > div#imagem {
+        display: inline-block;
+        position: absolute;
+        width: 40%;
+        background: var(--cor2) url(../imagens/pexels-sean-whang-804269.jpg) no-repeat center left;
+        background-size: cover;
+        height: 100%;
+    }
+
+    #formulario {
+        display: inline-block;
+        position: absolute;
+        right: 0px;
+        width: 60%;
+        text-align: center;
+        padding: 10px;
+        height: 100%;
+    }
+}
+
+
+
+
+@media screen and (min-width: 1000px) {
+    body {
+        
+    }
+
+    section#login {
+        position: relative;
+        display: flex;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 60%;
+        height: 50%;
+        background-color: white;
+        border-radius: 20px;
+        overflow: hidden;
+        box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.484);
+    
+    }
+
+    section#login > div#imagem {
+        display: inline-block;
+        position: absolute;
+        right: 0px;
+        width: 40%;
+        background: var(--cor2) url(../imagens/pexels-sean-whang-804269.jpg) no-repeat center left;
+        background-size: cover;
+        height: 100%;
+    }
+
+    #formulario {
+        display: inline-block;
+        position: absolute;
+        left: 0px;
+        float: left;
+        width: 60%;
+        text-align: center;
+        padding: 10px;
+        height: 100%;
+    }
+}
