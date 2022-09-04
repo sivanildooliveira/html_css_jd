@@ -58,35 +58,37 @@ section#login > div#imagem {
 }
 
 #formulario h1{
-    font-size: 1em;
-    margin: 10px 0px;
+    font-size: 2vw;
+    margin: .5vh 0px;
 }
 
 #formulario p{
     width: 100%;
     font-size: .6em;
     line-height: 1em;
-    margin-bottom: 20px;
+    margin-bottom: 1vh;
   
     
 }
 
 
 form {
-    margin: 10px 0px;
+    margin: .5vh 0px;
     justify-content: space-around;
 
 }
 
 .input {
+
     display: flex;
     padding: 2px;
     background-color: var(--cor2);
     border-radius: 4px;
     overflow: hidden;
-    margin: 5px 0px;
+    margin: .25vh 0px;
     vertical-align: middle;
-    height: 30px;
+    height: 15vhpx;
+    font-size: 2vw;
 }
 
 .input span {
@@ -109,7 +111,7 @@ form {
     border-radius: 2px;
     color: white;
     font-size: .9em;
-    margin-top: 5px;
+    margin-top: .25vh;
     padding: 5px;
 
 }
